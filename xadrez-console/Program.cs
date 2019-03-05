@@ -7,8 +7,10 @@ namespace xadrez_console
     {
         static void Main(string[] args)
         {
-            Tabuleiro t = new Tabuleiro(8, 8);
+            Tabuleiro tab = new Tabuleiro(8, 8);
 
+            Tela.ImprimirTabuleiro(tab);
+                        
             Console.ReadKey();
         }
     }
