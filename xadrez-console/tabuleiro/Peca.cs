@@ -2,7 +2,7 @@
 
 namespace tabuleiro
 {
-    public class Peca
+    public abstract class Peca
     {
         public Lazy<Posicao> Posicao { get; set; }
         public Lazy<Cor> Cor { get; protected set; }
@@ -21,5 +21,7 @@ namespace tabuleiro
         {
             QteMovimentos++;
         }
+
+        public abstract bool[,] MovimentosPossiveis();
     }
 }
