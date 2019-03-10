@@ -16,5 +16,10 @@ namespace tabuleiro
             this.Tab = new Lazy<Tabuleiro>(tab);
             this.QteMovimentos = 0;
         }
+
+        public void IncrementarQtdMovimentos()
+        {
+            QteMovimentos++;
+        }
     }
 }
