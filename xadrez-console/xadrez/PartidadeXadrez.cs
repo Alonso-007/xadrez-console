@@ -225,19 +225,39 @@ namespace xadrez
 
         private void ColocarPecas()
         {
-            ColacarNovaPeca('c', 1, new Torre(tab, Cor.Branca));
-            ColacarNovaPeca('c', 2, new Torre(tab, Cor.Branca));
-            ColacarNovaPeca('d', 2, new Torre(tab, Cor.Branca));
-            ColacarNovaPeca('e', 2, new Torre(tab, Cor.Branca));
-            ColacarNovaPeca('e', 1, new Torre(tab, Cor.Branca));
-            ColacarNovaPeca('d', 1, new Rei(tab, Cor.Branca));
+            ColacarNovaPeca('a', 1, new Torre(tab, Cor.Branca));
+            ColacarNovaPeca('b', 1, new Cavalo(tab, Cor.Branca));
+            ColacarNovaPeca('c', 1, new Bispo(tab, Cor.Branca));
+            ColacarNovaPeca('d', 1, new Dama(tab, Cor.Branca));
+            ColacarNovaPeca('e', 1, new Rei(tab, Cor.Branca));
+            ColacarNovaPeca('f', 1, new Bispo(tab, Cor.Branca));
+            ColacarNovaPeca('g', 1, new Cavalo(tab, Cor.Branca));
+            ColacarNovaPeca('h', 1, new Torre(tab, Cor.Branca));
+            ColacarNovaPeca('a', 2, new Peao(tab, Cor.Branca));
+            ColacarNovaPeca('b', 2, new Peao(tab, Cor.Branca));
+            ColacarNovaPeca('c', 2, new Peao(tab, Cor.Branca));
+            ColacarNovaPeca('d', 2, new Peao(tab, Cor.Branca));
+            ColacarNovaPeca('e', 2, new Peao(tab, Cor.Branca));
+            ColacarNovaPeca('f', 2, new Peao(tab, Cor.Branca));
+            ColacarNovaPeca('g', 2, new Peao(tab, Cor.Branca));
+            ColacarNovaPeca('h', 2, new Peao(tab, Cor.Branca));
 
-            ColacarNovaPeca('c', 7, new Torre(tab, Cor.Preta));
-            ColacarNovaPeca('c', 8, new Torre(tab, Cor.Preta));
-            ColacarNovaPeca('d', 7, new Torre(tab, Cor.Preta));
-            ColacarNovaPeca('e', 7, new Torre(tab, Cor.Preta));
-            ColacarNovaPeca('e', 8, new Torre(tab, Cor.Preta));
-            ColacarNovaPeca('d', 8, new Rei(tab, Cor.Preta));
+            ColacarNovaPeca('a', 8, new Torre(tab, Cor.Preta));
+            ColacarNovaPeca('b', 8, new Cavalo(tab, Cor.Preta));
+            ColacarNovaPeca('c', 8, new Bispo(tab, Cor.Preta));
+            ColacarNovaPeca('d', 8, new Dama(tab, Cor.Preta));
+            ColacarNovaPeca('e', 8, new Rei(tab, Cor.Preta));
+            ColacarNovaPeca('f', 8, new Bispo(tab, Cor.Preta));
+            ColacarNovaPeca('g', 8, new Cavalo(tab, Cor.Preta));
+            ColacarNovaPeca('h', 8, new Torre(tab, Cor.Preta));
+            ColacarNovaPeca('a', 7, new Peao(tab, Cor.Preta));
+            ColacarNovaPeca('b', 7, new Peao(tab, Cor.Preta));
+            ColacarNovaPeca('c', 7, new Peao(tab, Cor.Preta));
+            ColacarNovaPeca('d', 7, new Peao(tab, Cor.Preta));
+            ColacarNovaPeca('e', 7, new Peao(tab, Cor.Preta));
+            ColacarNovaPeca('f', 7, new Peao(tab, Cor.Preta));
+            ColacarNovaPeca('g', 7, new Peao(tab, Cor.Preta));
+            ColacarNovaPeca('h', 7, new Peao(tab, Cor.Preta));
         }
     }
 }

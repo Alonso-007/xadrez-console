@@ -10,7 +10,6 @@ namespace xadrez_console
 
         public static void ImprimirPartida(PartidaDeXadrez partida)
         {
-            Console.WriteLine();
             ImprimirTabuleiro(partida.tab);
             Console.WriteLine();
             ImprimirPecasCapturada(partida);
